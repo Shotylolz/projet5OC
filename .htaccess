@@ -3,4 +3,14 @@
   <FilesMatch "\.(jpe?g|png|gif|webp)$">
     Header set Cache-Control "max-age=31536000, public"
   </FilesMatch>
+  # Mise en cache des fichiers CSS
+  # Si mise à jour régulière des css, penser à vider le cache
+  <FilesMatch "\.(css)$">
+      Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
+
+  # Mise en cache des fichiers JavaScript
+  <FilesMatch "\.(js)$">
+      Header set Cache-Control "max-age=31536000, public"
+  </FilesMatch>
 </IfModule>
