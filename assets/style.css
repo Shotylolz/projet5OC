@@ -1,13 +1,14 @@
 body {
 	max-width: 1920px;
 	margin: auto;
+	color: #000;
 }
 * {
 	font-family: 'Inter';
 	font-style: normal;
 }
 .top-header {
-	background-color: white;
+	background-color: #FFFFFF;
 	position: sticky;
 	top:0;
 	z-index: 1000;
@@ -25,7 +26,7 @@ body {
 .nav ul {
 	display: flex;
 	list-style-type: none;
-	font-size: 14px;
+	font-size: 18px;
 	margin-bottom: 0;
 }
 
@@ -93,7 +94,7 @@ body {
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 #gallery {
@@ -107,12 +108,14 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
+	font-size: 30px;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	font-size: 30px;
 }
 .item-column {
 	position: relative;
@@ -242,7 +245,7 @@ form textarea {
 	border: solid 1px;
 	height: 5em;
 	line-height: 2.5em;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	margin-bottom: 20px;
 }
 input[type="submit"] {
